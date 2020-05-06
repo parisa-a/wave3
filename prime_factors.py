@@ -3,7 +3,7 @@ import math
 # getting user input for integer 
 integer = int(input("Enter an integer (2 or greater): "))
 
-# determining if it is in the correct range (=>2) - need to find a way to break it 
+# determining if it is in the correct range (=>2)
 if integer < 2:
     print("Incorrect value. Try again.")
     exit()
